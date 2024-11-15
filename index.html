@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Tailwind Project</title>
+</head>
+
+<body class="flex justify-center items-center bg-fuchsia-100 h-screen">
+    <div class="flex md:flex-row flex-col bg-white shadow-lg mx-6 rounded-lg max-w-full md:max-w-3xl overflow-hidden">
+
+        
+        <div class="py-16 p-12 md:w-1/2">
+            <h2 class="font-bold font-serif text-black text-xl">Log In</h2>
+            <p class="mt-4 text-gray-500 text-sm leading-5">
+                Log in to your account to upload or download pictures, videos or music
+            </p>
+            <div class="flex gap-4 mt-6">
+                <input placeholder="Enter your email address" type="text"
+                    class="border-gray-200 px-4 py-2 border rounded-md text-white placeholder:text-sm focus:outline-none" />
+            </div>
+            <div class="flex gap-10">
+               
+                <a href="#" class="mt-6 text-sky-700 text-sm">Forgot password?</a>
+                <button
+                    class="bg-sky-700 hover:bg-sky-900 mt-3 px-5 py-3 rounded text-white hover:text-gray-200 duration-500">
+                    Next &rarr;
+                </button>
+            </div>
+
+            <hr class="bg-gray-400 mt-7 mb-4" />
+
+            <p class="font-light text-center text-gray-400 text-xs">
+                Or log in with
+            </p>
+
+            <div class="flex gap-4 my-4">
+                <button
+                    class="flex gap-4 border-gray-300 bg-white hover:bg-sky-900 px-5 py-3 border rounded text-gray-500 hover:text-gray-200 duration-500">
+                    <img src="images/facebook.png" alt="" class="w-6" />Facebook
+                </button>
+
+                <button
+                    class="flex gap-4 border-gray-300 bg-white hover:bg-sky-900 ml-4 px-5 py-3 border rounded text-gray-500 hover:text-gray-200 duration-500 b">
+                    <img src="images/google.png" alt="" class="w-6" />
+                    Google
+                </button>
+            </div>
+            
+        </div>
+
+        <div class="md:block hidden md:w-1/2">
+            <img src="images/image.jpg" alt="Background Image" class="w-full h-24 object-cover">
+        </div>
+
+    </div>
+</body>
+
+</html>
